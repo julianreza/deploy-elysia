@@ -5,7 +5,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
     "start": "bun run src/index.ts",
-    "build": "bun install"
+    "build": "bun build --output public"
   },
   "dependencies": {
     "elysia": "latest"
