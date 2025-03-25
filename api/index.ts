@@ -6,7 +6,4 @@ const app = new Elysia()
       message: 'Hello from Bun Elysia on Vercel!',
       timestamp: new Date().toISOString()
     }
-  })
-
-// Vercel-specific export
-export default app.handle
+  }).listen(3000)
