@@ -1,11 +1,12 @@
 {
   "name": "deploy-elysia",
   "version": "1.0.50",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch api/index.ts",
     "start": "bun run api/index.ts",
-    "build": "bun build src/index.ts --target=bun --outfile public/index.js"
+    "build": "echo 'Build completed'"
   },
   "engines": {
     "node": ">=18.0.0"
