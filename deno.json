@@ -4,7 +4,7 @@
       "strict": true
     },
     "imports": {
-      "elysia": "https://deno.land/x/elysia@1.2.25/mod.ts"
+      "elysia": "https://deno.land/x/elysia@latest/mod.ts"
     },
     "tasks": {
       "start": "deno run --allow-net src/index.ts"
