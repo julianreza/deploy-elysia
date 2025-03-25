@@ -1,5 +1,6 @@
 {
     "version": 2,
+    "outputDirectory": "public",
     "functions": {
       "api/index.ts": {
         "memory": 1024,
@@ -8,7 +9,7 @@
     },
     "routes": [
       {
-        "api": "/(.*)",
+        "src": "/(.*)",
         "dest": "api/index.ts"
       }
     ]
